@@ -21,7 +21,7 @@ void main()
     vector<double>vect(array, array + panjang);
     sort(vect.begin(), vect.end(), greater<int>());
     
-    cout << "tampilan array sesudah diurutkan dari yang terbesar hingga terkecil\n";
+    cout << "TAMPILAN ARRAY SETELAH DIURUTKAN DARI YANG TERBESAR HINGGA YANG TERKECIL\n";
 
     for (int i = 0; i < vect.size(); i++)
     {
