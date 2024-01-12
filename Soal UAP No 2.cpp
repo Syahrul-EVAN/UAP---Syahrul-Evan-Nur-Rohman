@@ -11,7 +11,8 @@ void main()
     int panjang = sizeof(array) / sizeof(array[0]);
 
     cout << "deret sebelum disorting\n";
-    for (int i = 0; i < panjang; i++){
+    for (int i = 0; i < panjang; i++)
+    {
         cout << array[i] << " |";
     }
 
@@ -19,9 +20,11 @@ void main()
 
     vector<double>vect(array, array + panjang);
     sort(vect.begin(), vect.end(), greater<int>());
+    
     cout << "tampilan array sesudah diurutkan dari yang terbesar hingga terkecil\n";
 
-    for (int i = 0; i < vect.size(); i++){
+    for (int i = 0; i < vect.size(); i++)
+    {
         cout << vect[i] << " |";
     }
 
